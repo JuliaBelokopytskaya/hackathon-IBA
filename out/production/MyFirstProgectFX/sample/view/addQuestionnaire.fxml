@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #B0E0E6;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.addQrController">
+   <children>
+      <Label fx:id="label2" layoutX="131.0" layoutY="84.0" prefHeight="17.0" prefWidth="435.0" text="Ответьте, пожалуйста, на несколько вопросов.  Мы подберем для вас самое выгодное предложение" textAlignment="CENTER">
+         <font>
+            <Font name="Monotype Corsiva" size="22.0" />
+         </font></Label>
+      <Label layoutX="40.0" layoutY="145.0" text="Насколько активен Ваш ребенок?">
+         <font>
+            <Font name="Monotype Corsiva" size="16.0" />
+         </font></Label>
+      <RadioButton fx:id="yesActivity" layoutX="264.0" layoutY="145.0" mnemonicParsing="false" text="Да, она настоящий сорвиголова">
+         <toggleGroup>
+            <ToggleGroup fx:id="activity" />
+         </toggleGroup>
+         <font>
+            <Font name="Monotype Corsiva" size="16.0" />
+         </font></RadioButton>
+      <RadioButton fx:id="noActivity" layoutX="262.0" layoutY="175.0" mnemonicParsing="false" text="Нет, он любит спокойные игры" toggleGroup="$activity">
+         <font>
+            <Font name="Monotype Corsiva" size="16.0" />
+         </font></RadioButton>
+      <RadioButton fx:id="soSoActivity" layoutX="262.0" layoutY="208.0" mnemonicParsing="false" text="Проявляет активность, если сильно увлечен процессом" toggleGroup="$activity">
+         <font>
+            <Font name="Monotype Corsiva" size="16.0" />
+         </font></RadioButton>
+      <Label layoutX="55.0" layoutY="260.0" text="Музыкален ли Ваш ребенок?">
+         <font>
+            <Font name="Monotype Corsiva" size="16.0" />
+         </font></Label>
+      <RadioButton fx:id="yesMusic" layoutX="263.0" layoutY="260.0" mnemonicParsing="false" text="Да">
+         <toggleGroup>
+            <ToggleGroup fx:id="music" />
+         </toggleGroup>
+         <font>
+            <Font name="Monotype Corsiva" size="16.0" />
+         </font></RadioButton>
+      <RadioButton fx:id="noMusic" layoutX="321.0" layoutY="244.0" mnemonicParsing="false" text="Нет" toggleGroup="$music">
+         <font>
+            <Font name="Monotype Corsiva" size="16.0" />
+         </font></RadioButton>
+      <RadioButton fx:id="soSoMusic" layoutX="401.0" layoutY="244.0" mnemonicParsing="false" text="Сложно ответить" toggleGroup="$music">
+         <font>
+            <Font name="Monotype Corsiva" size="16.0" />
+         </font></RadioButton>
+      <Label layoutX="55.0" layoutY="316.0" text="Любит ли Ваш ребенок спорт?">
+         <font>
+            <Font name="Monotype Corsiva" size="16.0" />
+         </font></Label>
+      <RadioButton fx:id="yesSport" layoutX="265.0" layoutY="300.0" mnemonicParsing="false" text="Да">
+         <toggleGroup>
+            <ToggleGroup fx:id="sport" />
+         </toggleGroup>
+         <font>
+            <Font name="Monotype Corsiva" size="16.0" />
+         </font></RadioButton>
+      <RadioButton fx:id="noSport" layoutX="321.0" layoutY="300.0" mnemonicParsing="false" text="Нет" toggleGroup="$sport">
+         <font>
+            <Font name="Monotype Corsiva" size="16.0" />
+         </font></RadioButton>
+      <RadioButton fx:id="soSoSport" layoutX="401.0" layoutY="300.0" mnemonicParsing="false" text="Сложно ответить" toggleGroup="$sport">
+         <font>
+            <Font name="Monotype Corsiva" size="16.0" />
+         </font></RadioButton>
+      <Button fx:id="answer" layoutX="286.0" layoutY="355.0" mnemonicParsing="false" style="-fx-background-color: #F39C63;" text="Ответить">
+         <font>
+            <Font name="Monotype Corsiva" size="16.0" />
+         </font></Button>
+      <Label fx:id="label" layoutX="94.0" layoutY="72.0" prefHeight="17.0" prefWidth="435.0" textAlignment="CENTER" />
+      <AnchorPane prefHeight="78.0" prefWidth="600.0" style="-fx-background-color: #2E3348;">
+         <children>
+            <ImageView fitHeight="86.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/free-png.ru-429.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="102.0" layoutY="2.0" prefHeight="74.0" prefWidth="585.0" text="Детский центр Маленький жук" textFill="#fffbfb">
+               <font>
+                  <Font name="Monotype Corsiva" size="40.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="102.0" fitWidth="92.0" layoutX="602.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/0-4561_bugs-clipart-animated-cartoon-images-of-insect.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="112.0" fitWidth="92.0" layoutX="565.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@children-clip-art-2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="74.0" fitWidth="109.0" layoutX="67.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@children-clip-art-40.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
