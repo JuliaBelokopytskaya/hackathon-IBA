@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #B0E0E6;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.QuizController">
+   <children>
+      <Text fx:id="textQuestion" layoutX="157.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Как звали кота в Простоквашино?" textAlignment="CENTER" wrappingWidth="379.0">
+         <font>
+            <Font name="Monotype Corsiva" size="22.0" />
+         </font></Text>
+      <RadioButton fx:id="btnAnswer1" layoutX="170.0" layoutY="277.0" mnemonicParsing="false" text="Мурзик">
+         <toggleGroup>
+            <ToggleGroup fx:id="answers" />
+         </toggleGroup>
+         <font>
+            <Font name="Monotype Corsiva" size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="btnAnswer2" layoutX="296.0" layoutY="277.0" mnemonicParsing="false" text="Матроскин" toggleGroup="$answers">
+         <font>
+            <Font name="Monotype Corsiva" size="16.0" />
+         </font></RadioButton>
+      <RadioButton fx:id="btnAnswer3" layoutX="425.0" layoutY="277.0" mnemonicParsing="false" text="Черныш" toggleGroup="$answers">
+         <font>
+            <Font name="Monotype Corsiva" size="16.0" />
+         </font></RadioButton>
+      <Button fx:id="btnWantSale" layoutX="302.0" layoutY="328.0" mnemonicParsing="false" />
+      <Button fx:id="btnGetAnswer" layoutX="296.0" layoutY="325.0" mnemonicParsing="false" style="-fx-background-color: #F39C63;" text="Ответить">
+         <font>
+            <Font name="Monotype Corsiva" size="16.0" />
+         </font></Button>
+      <AnchorPane prefHeight="80.0" prefWidth="708.0" style="-fx-background-color: #2E3348;">
+         <children>
+            <ImageView fitHeight="86.0" fitWidth="102.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/free-png.ru-429.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="102.0" layoutY="12.0" prefHeight="55.0" prefWidth="527.0" text="Детский центр Маленький жук" textFill="#fffbfb">
+               <font>
+                  <Font name="Monotype Corsiva" size="40.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="41.0" fitWidth="83.0" layoutX="605.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/0-4561_bugs-clipart-animated-cartoon-images-of-insect.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="118.0" fitWidth="143.0" layoutX="34.0" layoutY="266.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/1%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="118.0" fitWidth="139.0" layoutX="565.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/515f88a583e67c7e6b217d375c660df2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="118.0" fitWidth="147.0" layoutX="561.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/cartoon_img_089.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="126.0" fitWidth="110.0" layoutX="34.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/Oslik.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="131.0" layoutX="276.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pinocchio-clip-art-4.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
