@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="commons-codec-1.151">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../Program Files/Java/poi-src-5.1.0-20211024/commons-codec-1.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Program Files/Java/poi-src-5.1.0-20211024/commons-collections4-4.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Program Files/Java/poi-src-5.1.0-20211024/commons-math3-3.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Program Files/Java/poi-src-5.1.0-20211024/jcl-over-slf4j-1.7.30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Program Files/Java/poi-src-5.1.0-20211024/poi-5.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Program Files/Java/poi-src-5.1.0-20211024/poi-scratchpad-5.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Program Files/Java/poi-src-5.1.0-20211024/slf4j-api-1.7.30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Program Files/Java/poi-src-5.1.0-20211024/SparseBitSet-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
